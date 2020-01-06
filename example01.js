@@ -4,6 +4,8 @@ var lastName = "Johnson"; // String
 var x = { firstName: "John", lastName: "Doe" }; // Object
 
 console.log(x);
+console.log(lastName);
+
 
 
 var w = 16 + "Volvo";
