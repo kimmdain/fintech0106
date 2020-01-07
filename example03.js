@@ -41,6 +41,9 @@ cars[2] = car03
 //----------------------
 for(var i = 0; i < cars.length; i ++){
     console.log(cars[i].name);
-    console.log(cars[i].ph);
+    //---- 자동차 이름이 BMW 일때 FIND 출력 ----///
+    if(cars[i].name == "bmw"){
+        console.log('find!');
+    }
 }
 //----------------------
