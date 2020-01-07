@@ -38,4 +38,9 @@ cars[0] = car01
 cars[1] = car02
 cars[2] = car03
 
-console.log(cars);
+//----------------------
+for(var i = 0; i < cars.length; i ++){
+    console.log(cars[i].name);
+    console.log(cars[i].ph);
+}
+//----------------------
