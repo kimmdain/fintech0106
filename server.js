@@ -26,6 +26,10 @@ app.get('/test', function(req, res){
     res.render('test');
 })
 
+app.get('/signup', function(req, res){
+    res.render('signup');
+})
+
 app.get('/dbtofront', function(req, res){
     connection.query('SELECT * FROM test', function (error, results, fields) {
         if (error) throw error;
