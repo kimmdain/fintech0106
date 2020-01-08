@@ -30,8 +30,8 @@ app.get('/dbtofront', function(req, res){
     connection.query('SELECT * FROM test', function (error, results, fields) {
         if (error) throw error;
         console.log('The result is: ', results);
-      });
-      
+        res.json(results);
+    });
 })
 
 
